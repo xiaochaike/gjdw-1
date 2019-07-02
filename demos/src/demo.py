@@ -17,7 +17,9 @@ def hello() :
     html = response.read()  
     print(html.decode('utf-8'))
     
-
+   
+   
+   
 def fn():
     hello()
     thd.Timer(1,fn).start()
